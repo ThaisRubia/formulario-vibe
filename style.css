@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.cabecalho{
+    display: flex; /*COMENTÁRIO*/
+    flex-direction: row; /* ALINHA OS ELEMENTOS*/
+    align-items: center;
+    justify-content: space-around; /* DEIXA OS ELEMENTOS JUNTOS*/
+    padding: 10px;
+    background-color: black;
+    
+}
+.cabecalho-imagem{
+    width: 45px; /* LARGURA*/
+}
+p{
+    color:white;
+    font-size: large;
+   
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 2px; /* ESPAÇAMENTO ENTRE OS ELEMENTOS DE DENTRO*/
+}
+.love{
+    background-color:  #444857;
+    color: white;
+    margin: 1px 5px 1px 0px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+.editor{
+    background-color:  #444857;
+    color: white;
+    margin: 1px 5px 1px 0px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+.inscricao{
+    color: black;
+    background-color: #47CF73;
+    margin: 1px 8px 1px 0px;
+    padding: 7px 3px;
+    border-radius: 5px;
+}
+.sessao{
+    background-color:  #444857;
+    color: white;
+    margin: 1px 10px 1px 0px;
+    padding: 7px 3px;
+    border-radius: 5px;
+}
+main{
+    background-color:#ADD8E6;
+}
+.conteudo-principal-escrito{
+    margin-top:  32.16px 0px;
+    padding-top: 20px;
+    text-decoration: underline;
+    display: flex; /* Deixa flexivel*/
+    flex-direction: row; /*DEIXA CENTRALIZADO*/
+    justify-content: space-around;/*CONSIGO MUDAR DE POSICAO*/
+
+}
