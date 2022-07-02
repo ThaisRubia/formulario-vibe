@@ -42,13 +42,15 @@ main{
 
 }
 .box{
+   
    justify-content: center;
    border-radius: 5px;
     background-color: white;
     width: 60%;
-    height: 70%;
+    height: 100%;
     margin-left: 20%;
-    
+    align-items: center;
+
 
 }
 .name{
@@ -119,4 +121,40 @@ main{
     align-items: center;
 }
 
+#opcao-vertical{
+    margin-top: 20px;
+    text-align: center;
+}
 
+.alinhar-frase{
+    align-items: center;
+    text-align: center;
+}
+.acontecimento{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.frase-normal{
+    margin-top: 20px;
+    text-align: center;
+}
+.perg-emocao{
+    margin-top: 20px;
+    text-align: center;
+}
+.experience{
+    margin-top: 20px;
+    text-align: center;
+}
+.button{
+    margin-top: 20px;
+}
+.acont-opcao{
+    align-items: center;
+    text-align: center;
+
+}

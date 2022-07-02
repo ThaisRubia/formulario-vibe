@@ -46,9 +46,9 @@
                         <input class="caixa-maior" type="email" id="email" value="Enter your email address"/>
 
                     </div>
-                    <div class="">
-                        <label for="email">On a scale of 1-10, how good was it?:</label>
-                        <select class="" name="estado" value="Enter a Number between 1">
+                    <div id="opcao-vertical">
+                        <label class="alinhar-frase" for="email">On a scale of 1-10, how good was it?:</label>
+                        <select name="estado" value="Enter a Number between 1">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -64,9 +64,9 @@
                         
                     </div>
 
-                    <div class="local-acontecimento">
+                    <div class="acontecimento">
                         <label class="">Where did it happen?</label>
-                        <select name="local">
+                        <select class="acont-opcao" name="local">
                             <option>At home</option>
                             <option>On my commute</option>
                             <option>At work</option>
@@ -85,9 +85,9 @@
                     
                     </div>
 
-                    <div >
+                    <div class="perg-emocao">
                         <form>
-                            <label for="">What emotions did you experience?(Select all that apply)</label>
+                            <label>What emotions did you experience?(Select all that apply)</label>
                             <input type="checkbox" name="periodo1" value="1">Excited
                             <input type="checkbox" name="periodo2" value="2">Humbled
                             <input type="checkbox" name="periodo3" value="3">Elated
@@ -97,7 +97,7 @@
                         </form>
                     </div>
 
-                    <form>
+                    <form class="experience">
                         <label>Please describe your positive experience.</label>
                         <textarea>
                             Enter your experience here...
@@ -105,9 +105,11 @@
                     
                     </form>
 
-                    <input type="submit" name="acao" value="Submit">
+                    <input class="button"type="submit" name="acao" value="Submit">
+                    
 
                 </div>
+                
                 
                 
             </form>
