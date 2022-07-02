@@ -31,94 +31,88 @@
         </section>
         <section class="perguntas">
             <form class="perguntas-ao-usuario">
-                <p class="tell">Tell us something positive that happened to you today.</p>
-                
-                <div>
-
-                    <label for="nome">Name:</label>
-                    <input type="text" name="nome_do_usuario" value="" size="20" />
+                <div class="box">
+                    <p class="tell">Tell us something positive that happened to you today.</p>
                     
-                </div>
-                <div>
+                    <div class="name">
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" />
+                        <label for="nome">Name:</label>
+                        <input class="aumentar"type="text" name="nome_do_usuario" value="Enter your name" size="20" />
+                        
+                    </div>
+                    <div class="email">
 
-                </div>
-                <div>
-                    <label for="email">On a scale of 1-10, how good was it?:</label>
-                    <select name="estado">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
+                        <label for="email">Email:</label>
+                        <input class="caixa-maior" type="email" id="email" value="Enter your email address"/>
 
-                    </select>
+                    </div>
+                    <div class="">
+                        <label for="email">On a scale of 1-10, how good was it?:</label>
+                        <select class="" name="estado" value="Enter a Number between 1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+
+                        </select>
+                        
+                    </div>
+
+                    <div class="local-acontecimento">
+                        <label class="">Where did it happen?</label>
+                        <select name="local">
+                            <option>At home</option>
+                            <option>On my commute</option>
+                            <option>At work</option>
+                            <option>On the street</option>
+                            <option>Other</option>
+
+                        </select>
+                    </div>
+
+                    <div >
+                        
+                        <label class="frase-normal">At what time of day did it happen?</label>
+                        <input class="time" type="radio" name="periodo1" value="1">Morning
+                        <input class="time" type="radio" name="periodo2" value="2">Afternoon
+                        <input class="time" type="radio" name="periodo3" value="3">Evening
                     
-                </div>
+                    </div>
 
-                <div>
-                    <label>Where did it happen?</label>
-                    <select name="local">
-                        <option>At home</option>
-                        <option>On my commute</option>
-                        <option>At work</option>
-                        <option>On the street</option>
-                        <option>Other</option>
+                    <div >
+                        <form>
+                            <label for="">What emotions did you experience?(Select all that apply)</label>
+                            <input type="checkbox" name="periodo1" value="1">Excited
+                            <input type="checkbox" name="periodo2" value="2">Humbled
+                            <input type="checkbox" name="periodo3" value="3">Elated
+                            <input type="checkbox" name="periodo1" value="4">Loved
+                            <input type="checkbox" name="periodo2" value="5">Enthusiastic
+                        
+                        </form>
+                    </div>
 
-                    </select>
-                </div>
-
-                <div>
-                    
-                    <label>At what time of day did it happen?</label>
-                    <input type="radio" name="periodo1" value="1">Morning
-                    <input type="radio" name="periodo2" value="2">Afternoon
-                    <input type="radio" name="periodo3" value="3">Evening
-                
-                </div>
-
-                <div>
                     <form>
-                        <label for="">What emotions did you experience?(Select all that apply)</label>
-                        <input type="checkbox" name="periodo1" value="1">Excited
-                        <input type="checkbox" name="periodo2" value="2">Humbled
-                        <input type="checkbox" name="periodo3" value="3">Elated
-                        <input type="checkbox" name="periodo1" value="4">Loved
-                        <input type="checkbox" name="periodo2" value="5">Enthusiastic
-                      
+                        <label>Please describe your positive experience.</label>
+                        <textarea>
+                            Enter your experience here...
+                        </textarea>
+                    
                     </form>
+
+                    <input type="submit" name="acao" value="Submit">
+
                 </div>
-
-                <form>
-                    <label>Please describe your positive experience.</label>
-                    <textarea>
-                        Enter your experience here...
-                    </textarea>
-                
-                </form>
-
-                <input type="submit" name="acao" value="Submit">
-
-
-          
-   
-
-                
-
-        
-    
                 
                 
             </form>
         </section>
     </main>
-       
+    
 </body>
 </html>

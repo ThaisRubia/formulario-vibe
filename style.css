@@ -14,18 +14,73 @@
     padding: 10px;
     background-color: black;
     
+    
 }
 .cabecalho-imagem{
     width: 45px; /* LARGURA*/
 }
 p{
-    color:white;
+    color:black;
     font-size: large;
-   
 }
 .cabecalho-menu{
     display: flex;
     gap: 2px; /* ESPAÇAMENTO ENTRE OS ELEMENTOS DE DENTRO*/
+}
+
+main{
+    
+    background-color:#ADD8E6;
+    
+}
+.conteudo-principal-escrito{
+    margin-top:  32.16px 0px;
+    padding-top: 20px;
+    display: flex; /* Deixa flexivel*/
+    flex-direction: row; /*DEIXA CENTRALIZADO*/
+    justify-content: space-around;/*CONSIGO MUDAR DE POSICAO*/
+
+}
+.box{
+   justify-content: center;
+   border-radius: 5px;
+    background-color: white;
+    width: 60%;
+    height: 70%;
+    margin-left: 20%;
+    
+
+}
+.name{
+   
+    text-align: center;
+    margin-top: 1cm;
+   
+    
+}
+.aumentar{
+    width: 4cm;
+    height: 30px;
+    
+}
+.caixa-maior{
+    width: 4cm;
+    height: 30px;
+   
+}
+.email{
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.tell{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 1cm;
 }
 .love{
     background-color:  #444857;
@@ -55,15 +110,13 @@ p{
     padding: 7px 3px;
     border-radius: 5px;
 }
-main{
-    background-color:#ADD8E6;
+.frase-normal{
+    display: inline-block;
+    align-items: center;
 }
-.conteudo-principal-escrito{
-    margin-top:  32.16px 0px;
-    padding-top: 20px;
-    text-decoration: underline;
-    display: flex; /* Deixa flexivel*/
-    flex-direction: row; /*DEIXA CENTRALIZADO*/
-    justify-content: space-around;/*CONSIGO MUDAR DE POSICAO*/
+.emocao{
+    justify-content: center;
+    align-items: center;
+}
 
-}
+
